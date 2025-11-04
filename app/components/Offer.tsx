@@ -13,7 +13,7 @@ const Offer = () => {
         <button className='bg-orange-600 text-white rounded-md py-3 px-6'>Order Now</button>
            </div>
         <div className='flex-1 w-full relative md:h-full'>
-<Image src="/photo_1_2025-10-29_16-21-48.jpg" alt="" fill className='object-contain '/>
+<Image src="/bagar-img1.png.png" alt="" fill className='object-contain '/>
      
       </div>
     </div>

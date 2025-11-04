@@ -16,7 +16,7 @@ export const featuredItems: Items = [
     title: "Classic Beef Burger",
     desc: "Juicy grilled beef patty with melted cheese, lettuce, and house sauce.",
     price: 14.99,
-    image: "/Rectangle 44.png",
+    image: "/187.png",
     options: [
       { title: "Small", additionalPrice: 19.99 },
       { title: "Medium", additionalPrice: 18.99 },
@@ -28,7 +28,7 @@ export const featuredItems: Items = [
     title: "Double Cheese Burger",
     desc: "Beef burger stacked with double cheese, crispy onions, and a toasted bun.",
     price: 24.11,
-    image: "/Rectangle 13.png",
+    image: "/product3-202x181.png.png",
     options: [
       { title: "Small", additionalPrice: 3.44 },
       { title: "Medium", additionalPrice: 6.45 },
@@ -40,7 +40,7 @@ export const featuredItems: Items = [
     title: "Pepperoni Pizza",
     desc: "Crispy crust topped with melted cheese and spicy pepperoni slices.",
     price: 16.91,
-    image: "/Ellipse 6.png",
+    image: "/product4.png (1).png",
     options: [
       { title: "Small", additionalPrice: 1.88 },
       { title: "Medium", additionalPrice: 4.45 },
@@ -52,7 +52,7 @@ export const featuredItems: Items = [
     title: "Hawaiian Pizza",
     desc: "A sweet and savory combo of ham, pineapple, and melted mozzarella.",
     price: 34.56,
-    image: "/Ellipse 6 (4).png",
+    image: "/product4-202x181.png (1).png",
     options: [
       { title: "Small", additionalPrice: 1.38 },
       { title: "Medium", additionalPrice: 3.55 },
@@ -64,7 +64,7 @@ export const featuredItems: Items = [
     title: "Italian Pasta",
     desc: "Authentic Italian pasta tossed in creamy Alfredo or tomato sauce.",
     price: 15.34,
-    image: "/Rectangle 17.png",
+    image: "/184.png",
     options: [
       { title: "Small", additionalPrice: 3.63 },
       { title: "Medium", additionalPrice: 5.55 },
@@ -76,7 +76,7 @@ export const featuredItems: Items = [
     title: "Crispy French Fries",
     desc: "Golden fries with a perfect crunch, served with spicy or classic dip.",
     price: 4.44,
-    image: "/Rectangle 46 (1).png",
+    image: "/178.png",
     options: [
       { title: "Small", additionalPrice: 3.63 },
       { title: "Medium", additionalPrice: 5.5 },
@@ -88,7 +88,7 @@ export const featuredItems: Items = [
     title: "Chicken Sandwich",
     desc: "Tender grilled chicken layered with lettuce and creamy mayo.",
     price: 25.49,
-    image: "/Rectangle 21.png",
+    image: "/product3-300x269.png.png",
     options: [
       { title: "Small", additionalPrice: 9.33 },
       { title: "Medium", additionalPrice: 4.9 },
@@ -100,7 +100,7 @@ export const featuredItems: Items = [
     title: "Veggie Delight Pizza",
     desc: "A healthy pizza topped with colorful veggies, olives, and cheese.",
     price: 12.5,
-    image: "/Ellipse 6 (1).png",
+    image: "/181.png",
     options: [
       { title: "Small", additionalPrice: 2.89 },
       { title: "Medium", additionalPrice: 3.88 },
@@ -124,7 +124,7 @@ export const featuredItems: Items = [
     title: "Classic Cheese Pizza",
     desc: "Baked to perfection with rich mozzarella and tangy tomato sauce.",
     price: 9.99,
-    image: "/Rectangle 19.png",
+    image: "/product4-202x181.png (1).png",
     options: [
       { title: "Small", additionalPrice: 9.99 },
       { title: "Medium", additionalPrice: 12.99 },
@@ -171,7 +171,7 @@ export const SingleProduct : Product =   {
     title: "Hawaiian Pizza",
     desc: "A sweet and savory combo of ham, pineapple, and melted mozzarella.",
     price: 34.56,
-    image: "/Ellipse 6 (4).png",
+    image: "/181.png",
     options: [
       { title: "Small", additionalPrice: 1.38 },
       { title: "Medium", additionalPrice: 3.55 },
@@ -187,7 +187,7 @@ export const menuItems: Menu[] = [
     slug: "burgers",
     title: "Juicy Burgers",
     desc: "Freshly grilled beef patties layered with cheese, lettuce, and our special sauce.",
-    image: "/Ellipse 6 (4).png",
+    image: "/187.png",
     color: "orange"
   },
   {

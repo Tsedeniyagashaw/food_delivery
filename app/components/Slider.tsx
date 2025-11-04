@@ -9,7 +9,7 @@ const data = [
   },
   { id: 2,
      title: "Feeling Hungry?",
-      image:"/Group 16.png"
+      image:"/Group 8.png"
     },
   { id: 3,
      title: "Planning a Special Date?",
@@ -23,13 +23,13 @@ const data = [
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => 
-  //      setCurrentSlide( prev => data.length -1 === prev ? 0 : prev + 1)
-  //   , 4000)
-  //   return () => clearInterval(interval);
-  // } ,
-  //   []);
+  useEffect(() => {
+    const interval = setInterval(() => 
+       setCurrentSlide( prev => data.length -1 === prev ? 0 : prev + 1)
+    , 4000)
+    return () => clearInterval(interval);
+  } ,
+    []);
 
 
   return (
