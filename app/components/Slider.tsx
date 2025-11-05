@@ -52,4 +52,3 @@ const Slider = () => {
 export default Slider
 
 
-//37

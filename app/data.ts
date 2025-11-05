@@ -13,10 +13,10 @@ type Items = Product[];
 export const featuredItems: Items = [
   {
     id: 1,
-    title: "Classic Beef Burger",
+    title: "Chicken Roast",
     desc: "Juicy grilled beef patty with melted cheese, lettuce, and house sauce.",
     price: 14.99,
-    image: "/187.png",
+    image: "/01.png",
     options: [
       { title: "Small", additionalPrice: 19.99 },
       { title: "Medium", additionalPrice: 18.99 },
@@ -25,10 +25,10 @@ export const featuredItems: Items = [
   },
   {
     id: 2,
-    title: "Double Cheese Burger",
+    title: "Pasta with sauce",
     desc: "Beef burger stacked with double cheese, crispy onions, and a toasted bun.",
     price: 24.11,
-    image: "/product3-202x181.png.png",
+    image: "/Authentic italian pasta.png",
     options: [
       { title: "Small", additionalPrice: 3.44 },
       { title: "Medium", additionalPrice: 6.45 },
@@ -49,10 +49,10 @@ export const featuredItems: Items = [
   },
   {
     id: 4,
-    title: "Hawaiian Pizza",
+    title: "Double Burger",
     desc: "A sweet and savory combo of ham, pineapple, and melted mozzarella.",
     price: 34.56,
-    image: "/product4-202x181.png (1).png",
+    image: "/product3-300x269.png.png",
     options: [
       { title: "Small", additionalPrice: 1.38 },
       { title: "Medium", additionalPrice: 3.55 },
@@ -61,10 +61,10 @@ export const featuredItems: Items = [
   },
   {
     id: 5,
-    title: "Italian Pasta",
+    title: "shwarma",
     desc: "Authentic Italian pasta tossed in creamy Alfredo or tomato sauce.",
     price: 15.34,
-    image: "/184.png",
+    image: "/175.png",
     options: [
       { title: "Small", additionalPrice: 3.63 },
       { title: "Medium", additionalPrice: 5.55 },
@@ -73,10 +73,10 @@ export const featuredItems: Items = [
   },
   {
     id: 6,
-    title: "Crispy French Fries",
+    title: "Chicken with vegi",
     desc: "Golden fries with a perfect crunch, served with spicy or classic dip.",
     price: 4.44,
-    image: "/178.png",
+    image: "/shop2-1-202x181.png.png",
     options: [
       { title: "Small", additionalPrice: 3.63 },
       { title: "Medium", additionalPrice: 5.5 },
@@ -85,10 +85,11 @@ export const featuredItems: Items = [
   },
   {
     id: 7,
-    title: "Chicken Sandwich",
-    desc: "Tender grilled chicken layered with lettuce and creamy mayo.",
-    price: 25.49,
-    image: "/product3-300x269.png.png",
+       title: "chicken",
+    desc: "Crisp lettuce, cucumbers, and tomatoes topped with light dressing.",
+    price: 3.47,
+    image: "/shop3-1-202x181.png.png",
+   
     options: [
       { title: "Small", additionalPrice: 9.33 },
       { title: "Medium", additionalPrice: 4.9 },
@@ -97,58 +98,23 @@ export const featuredItems: Items = [
   },
   {
     id: 8,
-    title: "Veggie Delight Pizza",
-    desc: "A healthy pizza topped with colorful veggies, olives, and cheese.",
-    price: 12.5,
-    image: "/181.png",
+    title: "meat with ",
+    desc: "A warm bowl of mixed veggies and herbs — comforting and healthy.",
+    price: 20.49,
+    image: "/190.png",
     options: [
       { title: "Small", additionalPrice: 2.89 },
       { title: "Medium", additionalPrice: 3.88 },
       { title: "Large", additionalPrice: 4.99 },
     ],
   },
-  {
+
+      {
     id: 9,
-    title: "Fresh Garden Salad",
-    desc: "Crisp lettuce, cucumbers, and tomatoes topped with light dressing.",
-    price: 3.47,
-    image: "/Rectangle 15.png",
-    options: [
-      { title: "Small", additionalPrice: 2.45 },
-      { title: "Medium", additionalPrice: 3.45 },
-      { title: "Large", additionalPrice: 8.54 },
-    ],
-  },
-  {
-    id: 10,
-    title: "Classic Cheese Pizza",
-    desc: "Baked to perfection with rich mozzarella and tangy tomato sauce.",
-    price: 9.99,
-    image: "/product4-202x181.png (1).png",
-    options: [
-      { title: "Small", additionalPrice: 9.99 },
-      { title: "Medium", additionalPrice: 12.99 },
-      { title: "Large", additionalPrice: 14.99 },
-    ],
-  },
-  {
-    id: 11,
-    title: "Hearty Vegetable Soup",
-    desc: "A warm bowl of mixed veggies and herbs — comforting and healthy.",
-    price: 20.49,
-    image: "/Rectangle 23.png",
-    options: [
-      { title: "Small", additionalPrice: 4.99 },
-      { title: "Medium", additionalPrice: 6.99 },
-      { title: "Large", additionalPrice: 8.99 },
-    ],
-  },
-  {
-    id: 12,
-    title: "Extra Cheese Pizza",
+    title: "Orange Juice",
     desc: "Double mozzarella topping on a crisp crust — for cheese lovers.",
     price: 18.5,
-    image: "/Ellipse 6 (3).png",
+    image: "/Rectangle 46 (6).png",
     options: [
       { title: "Small", additionalPrice: 2.89 },
       { title: "Medium", additionalPrice: 3.88 },
@@ -168,10 +134,10 @@ type Menu = {
 
 export const SingleProduct : Product =   {
     id: 1,
-    title: "Hawaiian Pizza",
+    title: "Chicken roast",
     desc: "A sweet and savory combo of ham, pineapple, and melted mozzarella.",
     price: 34.56,
-    image: "/181.png",
+    image: "/01.png",
     options: [
       { title: "Small", additionalPrice: 1.38 },
       { title: "Medium", additionalPrice: 3.55 },

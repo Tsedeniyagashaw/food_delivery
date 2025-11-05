@@ -12,7 +12,7 @@ const CategoryPage = () => {
         sm:w-1/2 lg:w-1/3 p-4 flex flex-col
          justify-between odd:bg-orange-50'
          href={`/product/{item.id}`} key={item.id}>
-         <div className='relative h-[80%]'>
+         <div className='relative h-[70%] w-full'>
              <Image src={item.image} alt="" fill className='object-contain'/> 
          </div>
        <div className='flex items-center

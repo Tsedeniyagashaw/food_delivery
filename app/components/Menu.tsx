@@ -6,7 +6,7 @@ import Carticon from './Carticon';
 
 const links = [
     {id:1, name:"Home", url:"/"},
-    {id:2, name:"Menu", url:"/menu"},
+    {id:2, name:"Menu", url:"/menu/catagory"},
     {id:3, name:"Working Hours", url:"/"},
     {id:4, name:"Contact", url:"/"}, 
   
