@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link href="/">Home</Link>
         <Link href="/menu/catagory">Menu</Link>
         {/* <Link href="/">Working Hours</Link> */}
-        <Link href="/">Contact</Link>
+        <Link href="/contact">Contact</Link>
       </div>
       
         <div className='text-xl md:font-bold  flex-1 md:text-center '>
