@@ -14,7 +14,7 @@ export const featuredItems: Items = [
   {
     id: 1,
     title: "Chicken Roast",
-    desc: "Juicy grilled beef patty with melted cheese, lettuce, and house sauce.",
+    desc: "Tender roasted chicken marinated with special spices, served hot and juicy.",
     price: 14.99,
     image: "/01.png",
     options: [
@@ -25,8 +25,8 @@ export const featuredItems: Items = [
   },
   {
     id: 2,
-    title: "Pasta with sauce",
-    desc: "Beef burger stacked with double cheese, crispy onions, and a toasted bun.",
+    title: "Pasta with Sauce",
+    desc: "Authentic Italian pasta tossed in a rich, flavorful sauce with herbs and cheese.",
     price: 24.11,
     image: "/Authentic italian pasta.png",
     options: [
@@ -38,7 +38,7 @@ export const featuredItems: Items = [
   {
     id: 3,
     title: "Pepperoni Pizza",
-    desc: "Crispy crust topped with melted cheese and spicy pepperoni slices.",
+    desc: "Classic pizza topped with spicy pepperoni slices, melted cheese, and a crispy crust.",
     price: 16.91,
     image: "/product4.png (1).png",
     options: [
@@ -50,7 +50,7 @@ export const featuredItems: Items = [
   {
     id: 4,
     title: "Double Burger",
-    desc: "A sweet and savory combo of ham, pineapple, and melted mozzarella.",
+    desc: "A hearty burger stacked with two juicy beef patties, cheese, and house sauce.",
     price: 34.56,
     image: "/product3-300x269.png.png",
     options: [
@@ -61,8 +61,8 @@ export const featuredItems: Items = [
   },
   {
     id: 5,
-    title: "shwarma",
-    desc: "Authentic Italian pasta tossed in creamy Alfredo or tomato sauce.",
+    title: "Shawarma",
+    desc: "Deliciously spiced grilled meat wrapped in pita bread with veggies and sauce.",
     price: 15.34,
     image: "/175.png",
     options: [
@@ -73,8 +73,8 @@ export const featuredItems: Items = [
   },
   {
     id: 6,
-    title: "Chicken with vegi",
-    desc: "Golden fries with a perfect crunch, served with spicy or classic dip.",
+    title: "Chicken with Veggies",
+    desc: "Stir-fried chicken cooked with fresh vegetables in a savory sauce.",
     price: 4.44,
     image: "/shop2-1-202x181.png.png",
     options: [
@@ -85,11 +85,10 @@ export const featuredItems: Items = [
   },
   {
     id: 7,
-       title: "chicken",
-    desc: "Crisp lettuce, cucumbers, and tomatoes topped with light dressing.",
+    title: "Chicken",
+    desc: "Perfectly grilled chicken seasoned with herbs and served with house sauce.",
     price: 3.47,
     image: "/shop3-1-202x181.png.png",
-   
     options: [
       { title: "Small", additionalPrice: 9.33 },
       { title: "Medium", additionalPrice: 4.9 },
@@ -98,8 +97,8 @@ export const featuredItems: Items = [
   },
   {
     id: 8,
-    title: "meat with ",
-    desc: "A warm bowl of mixed veggies and herbs — comforting and healthy.",
+    title: "Meat with Veggies",
+    desc: "Juicy beef or lamb cooked with mixed vegetables and flavorful spices.",
     price: 20.49,
     image: "/190.png",
     options: [
@@ -108,11 +107,10 @@ export const featuredItems: Items = [
       { title: "Large", additionalPrice: 4.99 },
     ],
   },
-
-      {
+  {
     id: 9,
     title: "Orange Juice",
-    desc: "Double mozzarella topping on a crisp crust — for cheese lovers.",
+    desc: "Freshly squeezed orange juice packed with natural sweetness and vitamin C.",
     price: 18.5,
     image: "/Rectangle 46 (6).png",
     options: [
@@ -122,6 +120,7 @@ export const featuredItems: Items = [
     ],
   },
 ];
+
 
 type Menu = {
     id: number;
