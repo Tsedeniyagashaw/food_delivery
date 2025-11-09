@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { FaShoppingBasket } from "react-icons/fa";
-import React from 'react'
 
 const Carticon = () => {
   return (
