@@ -28,7 +28,7 @@ const ContactUs = () => {
         <h1 className="text-3xl font-bold text-center text-orange-600 mb-6">Contact Us</h1>
         
         <div className="flex flex-col items-center gap-4 mb-8">
-          <p className="text-xl">We'd love to hear from you!</p>
+          <p className="text-xl">We &apos; d love to hear from you!</p>
           <div className="text-center">
             <p><strong>Address:</strong> 123 Burger Lane, Foodville</p>
             <p><strong>Email:</strong> contact@burgerhub.com</p>
