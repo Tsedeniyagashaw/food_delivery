@@ -1,4 +1,3 @@
-import React from 'react'
 import { menuItems } from '../data'
 import Link from 'next/link'
 

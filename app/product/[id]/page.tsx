@@ -1,7 +1,6 @@
 import Price from '@/app/components/Price'
 import { SingleProduct } from '@/app/data'
 import Image from 'next/image'
-import React from 'react'
 
 const SingleProductPage = () => {
   return (

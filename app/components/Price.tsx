@@ -11,7 +11,6 @@ const Price = ({ price, id, options }: Props) => {
   const [quantity, setQuantity] = useState(1);
   const [selected, setSelected] = useState(0);
 
-  // Memoize the total calculation
   const total = useMemo(() => {
     return quantity * (options ? price + options[selected].additionalPrice : price);
   }, [quantity, selected, options, price]);
