@@ -1,9 +1,7 @@
-import React from 'react'
 import Menu from './Menu'
 import Link from 'next/link'
 import Carticon from './Carticon';
 import { FaPhoneAlt } from "react-icons/fa";
-// import { MdPhoneInTalk } from "react-icons/md";
 
 const Navbar = () => {
     const user = false;
@@ -14,7 +12,6 @@ const Navbar = () => {
 
         <Link href="/">Home</Link>
         <Link href="/menu/catagory">Menu</Link>
-        {/* <Link href="/">Working Hours</Link> */}
         <Link href="/contact">Contact</Link>
       </div>
       
