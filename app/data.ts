@@ -149,7 +149,7 @@ export const SingleProduct : Product =   {
 export const menuItems: Menu[] = [
   {
     id: 1,
-    slug: "burgers",
+    slug: "burger",
     title: "Juicy Burgers",
     desc: "Freshly grilled beef patties layered with cheese, lettuce, and our special sauce.",
     image: "/187.png",
