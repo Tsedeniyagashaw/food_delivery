@@ -10,7 +10,7 @@ const Offer = () => {
         <p className='text-white xl:text-xl'>Enjoy a juicy, freshly grilled burger paired with golden French fries — made
       to order, hot, and packed with flavor. Perfect for a quick lunch or a cozy dinner!</p>
         <CountDown />
-        <button className='bg-orange-600 text-white rounded-md py-3 px-6'>Order Now</button>
+        <button className='bg-orange-600 text-white rounded-md py-3 px-6 hover:bg-orange-400'>Order Now</button>
            </div>
         <div className='flex-1 w-full relative md:h-full'>
 <Image src="/bagar-img1.png.png" alt="" fill className='object-contain '/>
